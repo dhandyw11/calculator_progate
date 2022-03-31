@@ -1,0 +1,74 @@
+body {
+    background-color: #755139FF;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculator {
+    width: 1000px;
+    height: 550px;
+    margin: 70px auto;
+}
+
+.container {
+    background-color: #F2EDD7FF;
+    width: 320px;
+    height: 520px;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    /* background: #eee;
+    box-shadow: 0 10px 20px -4px lightblue; */
+}
+
+.tampilan_hasil {
+    width: 280px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 17px;
+    text-align: right;
+    font-size: 30px;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.button {
+    padding-top: 30px;
+    height: 400px;
+}
+
+.angka, .tanda, .hapus, .hapus_semua, .desimal, .equal {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 5px 15px;
+    border-width: 0;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tanda, .hapus, .hapus_semua, .equal  {
+    background-color: lightgray;
+}
+
+.angka:active, .tanda:active, .hapus:active, .hapus_semua:active, .desimal:active, .equal:active{
+    font-size: 50%;
+    background-color: red;
+}
+
+.angka:focus, .tanda:focus, .hapus:focus, .hapus_semua:focus, .desimal:focus, .equal:focus {
+    outline: 0;
+}
+
+.tanda:nth-child(3), :nth-child(4), :nth-child(8), :nth-child(12), :nth-child(16), :nth-child(20), :nth-child(24) {
+    background-color: rgb(184, 199, 250);
+    font-size: 20px;
+}
+
+.hapus, .hapus_semua {
+    border-radius: 15px;
+}

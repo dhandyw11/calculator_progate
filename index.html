@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="shortcut icon" href="img/favIcon.png"/>
+    <title>Kalkulator Progate</title>
+</head>
+
+<body>
+    <div class="calculator">
+
+        <div class="container">
+            <input type="text" class="tampilan_hasil" disabled/>
+
+            <!-- Tombol -->
+            <div class="button">
+                <!-- Baris 1 -->
+                <button class="hapus_semua"> AC </button>
+                <button class="hapus"> DEL </button>
+                <button class="tanda" value="%"> % </button>
+                <button class="tanda" value="sqrt">&#8730;</button>
+                <!-- Baris 2 -->
+                <button class="tanda" value="sin"> Sin </button>
+                <button class="tanda" value="cos"> Cos </button>
+                <button class="tanda" value="tan"> Tan </button>
+                <button class="tanda" value="quad">x&sup2;</button>
+                <!-- Baris 3 -->
+                <button class="angka" value="7"> 7 </button>
+                <button class="angka" value="8"> 8 </button>
+                <button class="angka" value="9"> 9 </button>
+                <button class="tanda" value="/"> / </button>
+                <!-- Baris 4 -->
+                <button class="angka" value="4"> 4 </button>
+                <button class="angka" value="5"> 5 </button>
+                <button class="angka" value="6"> 6 </button>
+                <button class="tanda" value="*"> * </button>
+                <!-- Baris 5 -->
+                <button class="angka" value="1"> 1 </button>
+                <button class="angka" value="2"> 2 </button>
+                <button class="angka" value="3"> 3 </button>
+                <button class="tanda" value="-"> - </button>
+                <!-- Baris 6 -->
+                <button class="angka" value="0"> 0 </button>
+                <button class="desimal" value="."> , </button>
+                <button class="equal"> = </button>
+                <button class="tanda" value="+"> + </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="function.js"></script>
+
+</body>
+</html>
